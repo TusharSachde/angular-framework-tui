@@ -1,0 +1,7 @@
+<a-scene embedded ng-if="link" vr-mode-ui="enabled: false">
+    <a-assets>
+        <img id="image" noloading ng-src="{{link}}" load="alert">
+    </a-assets>
+
+    <a-sky src="#image"></a-sky>
+</a-scene>

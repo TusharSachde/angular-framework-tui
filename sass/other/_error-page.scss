@@ -1,0 +1,77 @@
+.error-template {
+    background-color: $tui-blue-25;
+    &.hidden-header {
+        .header {
+            display: block;
+        }
+    }
+    .navbar {
+        background-color: $brand-info;
+        color: white;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 85px;
+        padding: 20px;
+        img {
+            display: inline;
+        }
+        a.navbar-brand {
+            color: white;
+            font-family: 'tuitype';
+            font-size: 40px;
+            font-weight: normal;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .navbar-header {
+        float: left;
+        width: 100%;
+    }
+    .navbar-brand {
+        height: auto;
+        margin-left: 0;
+        padding: 0 0 0 0;
+        img {
+            margin-right: 15px;
+            vertical-align: text-bottom;
+        }
+    }
+    .error-page {
+        margin: 85px 0 0;
+        padding: 15px 30px 35px;
+        min-height: calc(100vh - 120px);
+        h3 {
+            color: $brand-primary;
+            font-size: 32px;
+        }
+        p.error-short {
+            max-width: 850px;
+        }
+        p {
+            color: #000;
+            font-size: 24px;
+            font-weight: 400;
+            margin: 10px auto;
+        }
+    }
+    .footer {
+        background-color: $tui-beige;
+        bottom: 0;
+        color: #000;
+        font-size: 14px;
+        height: 35px;
+        position: fixed;
+        width: 100%;
+        a {
+            color: #656565;
+            font-size: 14px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+    }
+    .error-image {
+        margin: 60px auto 0;
+    }
+}

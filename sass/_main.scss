@@ -1,0 +1,66 @@
+/* Bootstrap Variables Goes Here */
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* Mixin */
+
+@mixin placeholder-style {
+     ::-webkit-input-placeholder {
+        @content
+    }
+     :-moz-placeholder {
+        @content
+    }
+     ::-moz-placeholder {
+        @content
+    }
+     :-ms-input-placeholder {
+        @content
+    }
+}
+
+*,
+*>* {
+    outline: none !important;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @include transition(all 300ms ease);
+}
+
+nav li:hover .dropdown-menu {
+    display: block;
+}
+
+a,
+.btn,
+[ui-sref] {
+    cursor: pointer;
+    @include transition(all ease 300ms);
+}
+
+header {
+    background-color: $tui-blue;
+    text-align: center;
+}
+
+.logo {
+    width: 90px;
+    margin: 5px;
+}
+
+.content {
+    min-height: 300px;
+}
+
+footer {
+    font-size: 14px;
+    background-color: $tui-grey-25;
+    padding: 5px;
+}
+
+.color-primary {
+    color: $tui-dark-blue;
+}
