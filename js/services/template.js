@@ -1,19 +1,9 @@
 myApp.service('TemplateService', function () {
 
-    this.title = "Inspire";
+    this.title = "TUI AngularJS";
 
     var d = new Date();
     this.year = d.getFullYear();
-
-    this.basket = "views/modals/basket.html";
-    this.outcome = "views/modals/outcome.html";
-
-    this.home = { // templates for home.html
-        vertical: "views/content/layout/home-vertical.html",
-        horizontal: "views/content/layout/home-horizontal.html",
-        mobileGrid: "views/content/layout/insp-grid-mobile.html",
-        desktopGrid: "views/content/layout/insp-grid-desktop.html"
-    };
 
     this.error = { // templates for error page
         header: "views/error-pages/header.html",
