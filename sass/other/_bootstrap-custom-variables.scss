@@ -6,12 +6,10 @@ $tui-blue-25: rgb(194, 230, 250);
 $tui-blue-15: rgb(226, 243, 254);
 $tui-dark-blue: rgb(9, 42, 94);
 $tui-white: rgb(255, 255, 255);
-
 /* Secondary colours */
 
 $tui-green: rgb(170, 215, 0);
 $tui-yellow: rgb(255, 225, 0);
-
 /* Achromatic colours */
 
 $tui-beige: rgb(215, 210, 195);
@@ -21,21 +19,18 @@ $tui-grey: rgb(115, 115, 115);
 $tui-grey-50: rgb(185, 185, 185);
 $tui-grey-25: rgb(220, 220, 220);
 $tui-black: rgb(0, 0, 0);
-
 /* Bootstrap Colours */
 
-$brand-primary: $tui-dark-blue !default;
-$brand-success: $tui-green !default;
-$brand-warning: $tui-yellow !default;
-$brand-danger: $tui-red !default;
-$brand-info: $tui-blue !default;
-
+$blue: $tui-dark-blue !default;
+$green: $tui-green !default;
+$yellow: $tui-yellow !default;
+$red: $tui-red !default;
+$cyan: $tui-blue !default;
 /* Button */
 
 $btn-default-color: $tui-dark-blue !default;
 $btn-default-bg: $tui-grey-25 !default;
 $btn-default-border: $tui-grey-25 !default;
-
 /* Others */
 
 $font-family-sans-serif: "TUITypeLt",
@@ -48,8 +43,4 @@ Georgia,
 "Times New Roman",
 Times,
 serif !default;
-$font-size-base: 16px !default;
 $headings-font-weight: 700 !default;
-$border-radius-base: 0px !default;
-$border-radius-large: 0px !default;
-$border-radius-small: 0px !default;

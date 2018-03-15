@@ -6,6 +6,4 @@ myApp.controller('HeaderCtrl', function ($scope, TemplateService, $uibModal) {
         $(window).scrollTop(0);
     });
 
-    $.fancybox.close(true);
-
 });

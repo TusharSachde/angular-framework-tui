@@ -1,3 +1,1 @@
- @media (min-width: $screen-lg-min) {
-     // Wide Desktop
- }
+@include media-breakpoint-up(lg) {}

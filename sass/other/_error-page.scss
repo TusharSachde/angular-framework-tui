@@ -6,7 +6,7 @@
         }
     }
     .navbar {
-        background-color: $brand-info;
+        background-color: $info;
         color: white;
         margin-bottom: 0;
         margin-left: auto;
@@ -43,7 +43,7 @@
         padding: 15px 30px 35px;
         min-height: calc(100vh - 120px);
         h3 {
-            color: $brand-primary;
+            color: $primary;
             font-size: 32px;
         }
         p.error-short {

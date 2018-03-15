@@ -7,11 +7,10 @@ var myApp = angular.module('myApp', [
     'ui.bootstrap',
     'ngAnimate',
     'ngSanitize',
-    'angular-flexslider',
+    'ngTouch',
     'ui.swiper',
     'ngToast',
-    '720kb.socialshare',
-    'FBAngular'
+    '720kb.socialshare'
 ]);
 
 

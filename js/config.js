@@ -9,12 +9,12 @@ if (/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobi
 }
 
 // WebGL support check
-if (Detector.webgl) {
-    console.log('WebGL Supported');
-} else {
-    var warning = Detector.getWebGLErrorMessage();
-    console.error(warning);
-}
+// if (Detector.webgl) {
+//     console.log('WebGL Supported');
+// } else {
+//     var warning = Detector.getWebGLErrorMessage();
+//     console.error(warning);
+// }
 
 // Setting up environment variables
 var env = window.location.hostname;

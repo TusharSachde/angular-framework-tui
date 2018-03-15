@@ -1,3 +1,1 @@
-@media (max-width: $screen-xs-max) {
-    // Mobile
-}
+@include media-breakpoint-down(xs) {}
